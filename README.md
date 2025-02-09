@@ -1,16 +1,37 @@
 <img src="ISDC Hackathon.png" />
 
-# Binary crafters 
+# Team name: Binary crafters 
+*Team members:* Amruth M S, Mukasshaf Ahmed
 
+📌 *Live Demo:* [Your Website Link] : https://drive.google.com/file/d/1p8gtzbaTruY4ic3Oh7jUKJovPZfHZJGP/view?usp=sharing
 
-video link : https://drive.google.com/file/d/1p8gtzbaTruY4ic3Oh7jUKJovPZfHZJGP/view?usp=sharing
+  
 
+🚀 *Code Playground* – An interactive platform where users can *learn programming, **watch tutorials, and **write & execute code* in real-time!  
 
-Welcome to the **ISDC Hackathon!** 🚀
+🔹 *Features:*  
+✅ Supports programming languages like *C, C++, Python, and JavaScript*  
+✅ Supports developing courses like HTML,CSS,MongDB and many more.
+✅ Developed sign, signup for the user using the MongoDB database.
+✅ *Quiz after the each courses to check their knowledge. 
+✅ Built-in *code editor* with syntax highlighting (Monaco Editor)  
+✅ *Run code instantly* with real-time output  
+✅ *Watch video tutorials* side by side while coding  
+✅ *Standalone editor page* for writing and testing code  
+✅ *Light theme UI* for a modern & clean experience   
 
-This hackathon is not just a competition—it’s an opportunity to learn, collaborate, and innovate while working on real-world projects. Our goal is to identify talented peers who will join ISDC and contribute to exciting consultancy projects, helping them earn while they learn and build industry-ready skills.
+🔹 *Tech Stack:*  
+- *Frontend:* HTML, CSS, JavaScript, React,Bootstrap
+- *Backend:* Nodejs,expressjs, Thunderclient
+- *Database:* MongoDB
+- *Code Editor:* Monaco Editor  
+- *Backend Compiler:* Piston API (for executing C, C++, Python)  
 
-Through this event, you'll get a hands-on experience of how hackathons work. While this is an online hackathon, the collaboration, problem-solving, and teamwork you develop here will prepare you for bigger challenges, including our upcoming offline hackathon!
+💡 *Contributions & Suggestions Are Welcome!* 🚀  
 
-So gear up, bring your ideas to life, and show us what you’ve got! 🚀🔥
+  
+ 
 
+---
+
+Let me know if you want any modifications! 🚀🔥
