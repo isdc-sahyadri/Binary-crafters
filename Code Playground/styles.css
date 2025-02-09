@@ -1,0 +1,239 @@
+/* General Page Styles */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border-bottom: 4px solid #0056b3;
+}
+
+.logo {
+    font-family:Kanit;
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Hero Section (Homepage) */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e9ecef;
+    color: #333;
+    border-bottom: 4px solid #ccc;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero button {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+/* Language Grid (Homepage) */
+.languages {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.language-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.language-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.language-card h3 {
+    font-size: 1.5rem;
+}
+
+/* Tutorial Page Layout */
+.tutorial-container {
+    display: flex;
+    height: 90vh;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Video Section (Left in Tutorial Page) */
+.video-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-section iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Editor Section (Right in Tutorial Page) */
+.editor-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    color: #333;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Code Editor Page Layout */
+.editor-container {
+    display: flex;
+    height: 90vh;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Code Section (Left in Editor Page) */
+.code-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    color: #333;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Output Section (Right in Editor Page) */
+.output-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #e9ecef;
+    color: #0056b3;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown for Language Selection */
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#languageSelector {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    font-size: 1rem;
+    background: white;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Run Code Button */
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#runCode {
+    background: #28a745;
+}
+
+#runCode:hover {
+    background: #218838;
+}
+
+
+/* Output Box (Fixed Size Without Scrollbars) */
+.output-container {
+    background: white;
+    color: #0056b3;
+    padding: 10px;
+    width: 95%;
+    height: 300px; /* Adjust height to fit properly */
+    border-radius: 8px;
+    overflow: hidden; /* Prevent scrollbars */
+    font-family: monospace;
+    border: 1px solid #007bff;
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    white-space: pre-wrap; /* Ensures long text wraps instead of scrolling */
+    word-wrap: break-word;
+}
+
+/* Back to Home Button */
+.back-button {
+    background: #dc3545;
+}
+
+.back-button:hover {
+    background: #c82333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
