@@ -3,7 +3,7 @@
 # Team name: Binary crafters 
 *Team members:* Amruth M S, Mukasshaf Ahmed
 
-📌 *Live Demo:* [Your Website Link] : https://drive.google.com/file/d/1p8gtzbaTruY4ic3Oh7jUKJovPZfHZJGP/view?usp=sharing
+📌 *Live Demo:* https://drive.google.com/file/d/1p8gtzbaTruY4ic3Oh7jUKJovPZfHZJGP/view?usp=sharing
 
   
 
