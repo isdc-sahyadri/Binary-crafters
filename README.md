@@ -7,7 +7,7 @@
 
   
 
-🚀 *Code Playground* – An interactive platform where users can *learn programming, **watch tutorials, and **write & execute code* in real-time!  
+🚀 *Code Playground* – An interactive platform where users can learn programming, watch tutorials, and write & execute code in real-time!  
 
 🔹 *Features:*  
 ✅ Supports programming languages like *C, C++, Python, and JavaScript*  
